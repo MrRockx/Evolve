@@ -2142,7 +2142,7 @@ window.soft_reset = function reset(){
     window.location.reload();
 }
 
-export var webWorker = { w: false, s: false, mt: 250 };
+export var webWorker = { w: false, s: false, mt: 25 };
 export var intervals = {};
 
 export function clearSavedMessages(){
